@@ -22,10 +22,15 @@
         <div id="welcome">
           <h1>Welcome back</h1>
           <p>
-            Don't have an account? <a href="index.html">Create an account</a>
+            Don't have an account? <a href="../index.html">Create an account</a>
           </p>
         </div>
-        <form id="form" action="mainPage.html" method="post" onsubmit="login(event)">
+        <form
+          id="form"
+          action="mainPage.html"
+          method="post"
+          onsubmit="login(event)"
+        >
           <input
             class="email"
             type="text"
@@ -40,7 +45,7 @@
               placeholder="Password"
               required
             />
-            <img src="../Images/eye-password-show.svg" alt="Password Image"/>
+            <img src="../Images/eye-password-show.svg" alt="Password Image" />
           </div>
 
           <div id="SignInCheck">
@@ -67,18 +72,18 @@
         </div>
         <div id="socialMedia">
           <button onclick="sendToGoogle()">
-            <img src="../Images/google.svg" alt="google Image"/>Google
+            <img src="../Images/google.svg" alt="google Image" />Google
           </button>
           <button onclick="sendToFacebook()">
-            <img src="../Images/facebook.svg" alt="facebook Image"/>Facebook
+            <img src="../Images/facebook.svg" alt="facebook Image" />Facebook
           </button>
           <button onclick="sendToApple()">
-            <img src="../Images/apple-173.svg" alt="apple Image"/>Apple
+            <img src="../Images/apple-173.svg" alt="apple Image" />Apple
           </button>
         </div>
       </div>
       <div id="imageDiv">
-        <img src="../Images/account-cover.png" id="poster" alt="logo Image"/>
+        <img src="../Images/account-cover.png" id="poster" alt="logo Image" />
       </div>
     </div>
     <script src="../js/script.js"></script>
